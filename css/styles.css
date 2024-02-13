@@ -1,0 +1,85 @@
+/*
+Name: Brennan Matthews
+Date: February 08, 2024
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for images */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rule for header */
+header {
+    width: 25%;
+    float: left;
+    font-family: Geneva, Arial, sans-serif;
+}
+
+/*Style rules for navigation area */
+nav {
+    width: 70%;
+    float: right;
+    margin:5em 3em 0 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+main p {
+    font-size: 1.5em;
+}
+
+main ul {
+    list-style-type:circle;
+}
+
+#contact {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.75em;
+    background-color: #2a1f14;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
