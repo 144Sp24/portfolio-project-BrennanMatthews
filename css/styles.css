@@ -17,18 +17,11 @@ img {
     display: block;
 }
 
-/* Style rule for header */
-header {
-    width: 25%;
-    float: left;
-    font-family: Geneva, Arial, sans-serif;
-}
 
 /*Style rules for navigation area */
 nav {
     width: 70%;
-    float: right;
-    margin:5em 3em 0 0;
+    margin: auto;
 }
 
 nav ul {
@@ -50,6 +43,7 @@ nav li a {
     text-align: center;
     padding: 0.5em 1em;
     text-decoration: none;
+    background-color: #2a1f14;
 }
 
 /* Show mobile class, hide tablet-desktop class */
@@ -112,4 +106,19 @@ footer {
 footer a {
     color: #fff;
     text-decoration: none;
+}
+
+/* Tablet Display Styles */
+@media screen and (min-width: 630px) {
+    #HomeImage {
+        float:left;
+        height: 40%;
+        width: 40%;
+    }
+    footer {
+        clear: both;
+    }
+    main {
+        padding: 50px;
+    }
 }
